@@ -766,22 +766,36 @@ background-color: rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   } 
   .btn-open{
+  position: absolute;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #FFFFFF;
-  position: absolute;
+  
   right: 8px;
   top: 8px;
   }
 
-  .backdrop .is-hidden{
+  .backdrop .is-hidden5{
 opacity: 0;
 visibility: hidden;
 pointer-events: none;
 transition: opaciti 300ms, visabiliti 300ms;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .backdrop .is-hidden {
 opacity: 0;
 pointer-events: none;
