@@ -45,10 +45,11 @@
 
               <div class="container">
              <h1 class="hero-baner" >Эффективные решения для вашего бизнеса</h1>
-             <button class="hero-button" type="button" >Заказать услугу</button>          
-            </div>
+             <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>          
+           </div>
 
-            </section>
+    
+</section>
         
    
      <!--фишки компани-->
@@ -99,9 +100,22 @@
          <div class="container">
          <h2 class="maim-section title-photo">Чем мы занимаемся</h2>
          <ul class="photo-list">
-             <li class="photo-box"><img src="./images/img.svg" alt="работа за компьютером" width="370" height="294"></li>
-             <li class="photo-box"><img src="./images/img2.jpeg" alt="синхронизация работы гаджетов" width="370" height="294"></li>
-             <li class="photo-box"><img src="./images/img.jpeg" alt=" палитра цветов" width="370" height="294"></li>
+
+             <div class="position"> 
+                <li class="photo-box"><img src="./images/img.svg" alt="работа за компьютером" width="370" height="294"></li>
+                 <p class="text-one">Десктопные приложения</p>
+             </div>
+
+             <div class="position">
+                <li class="photo-box"><img src="./images/img2.jpeg" alt="синхронизация работы гаджетов" width="370" height="294"></li>
+             <p class="text-one">Мобильные приложения</p> 
+            </div>
+
+             <div class="position"> 
+                <li class="photo-box"><img src="./images/img.jpeg" alt=" палитра цветов" width="370" height="294"></li>
+                <p class="text-one">Дизайнерские решения</p> 
+            </div>
+            
             </ul>
         </div>
      </section>
@@ -122,14 +136,14 @@
                     <li class="social-item">
                         <a href="" class="social-link">
                             <svg class="icon-social" width="20" height="20">
-                                <use href="./images/sprite.svg#icon-insta" ></use> 
+                                <use href="./images/sprite.svg#icon-insta"></use> 
                             </svg>
                         </a>
                     </li>
 
                     <li class="social-item">
                         <a href="" class="social-link">
-                            <svg class="icon-social" width="20" height="16,25">
+                            <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-twit" ></use> 
                             </svg>
                         </a>
@@ -171,7 +185,7 @@
 
                     <li class="social-item">
                         <a href="" class="social-link">
-                            <svg class="icon-social" width="20" height="16,25">
+                            <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-twit" ></use> 
                             </svg>
                         </a>
@@ -212,7 +226,7 @@
 
                     <li class="social-item">
                         <a href="" class="social-link">
-                            <svg class="icon-social" width="20" height="16,25">
+                            <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-twit" ></use> 
                             </svg>
                         </a>
@@ -253,7 +267,7 @@
 
             <li class="social-item">
                 <a href="" class="social-link">
-                    <svg class="icon-social" width="20" height="16,25">
+                    <svg class="icon-social" width="20" height="20">
                         <use href="./images/sprite.svg#icon-twit" ></use> 
                     </svg>
                 </a>
@@ -394,7 +408,7 @@
 
             <li class="social-item">
                 <a href="" class="footer-box">
-                    <svg class="icon-social" width="20" height="16,25">
+                    <svg class="icon-social" width="20" height="20">
                         <use href="./images/sprite.svg#icon-twit" ></use> 
                     </svg>
                 </a>
@@ -421,7 +435,16 @@
 </div>
  </section>
 </footer>
+
+<div class="backdrop is-hidden" data-modal></div>
+<div class="modal"></div>
+<button type="button" class="btn-open" data-modal-close>
+    <svg class="icon-close" width="18" height="18">
+        <use href="./images//symbol-defs.svg#icon-closed"></use>
+    </svg>
+</button>
+
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
-
