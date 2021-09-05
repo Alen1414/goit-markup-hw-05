@@ -338,6 +338,7 @@ line-height: 1.16;
  }
  .text-one{
   position: absolute;
+  
 
   display: flex;
   justify-content: center;
@@ -746,12 +747,11 @@ position: fixed;
 width: 100vw;
 height: 100vh;
 top: 0;
-  /* left: 0; */ */
+ 
 background-color: rgba(0, 0, 0, 0.2);
-
 }
 
-.modal{
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -777,7 +777,7 @@ background-color: rgba(0, 0, 0, 0.2);
   top: 8px;
   }
 
-  .backdrop .is-hidden5{
+  .backdrop.is-hidden {
 opacity: 0;
 visibility: hidden;
 pointer-events: none;
