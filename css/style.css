@@ -382,7 +382,47 @@ line-height: 1.16;
  
  color: #FFFFFF;
  background-color: #2F303ACC; */
+/* .photo-list{
+ 
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+  /* padding-bottom: 94px; */
+ } */
 
+ /* .photo-box{
+  position: relative;
+  display: block;
+  width: 370px;
+  /* height: 294px; */
+  flex-basis: ((100% - 3*30px)/3);
+  margin-left: 30px;
+  margin-top: 30px;
+
+  
+ } */
+ /* .text-one{
+  position: absolute;
+  
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 27px;
+  max-width: 370px;
+  height: 70px;
+  
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; 
+  line-height: 1.14;
+ 
+ color: #FFFFFF;
+ background-color: #2F303ACC; */
+ }
+ 
 
  /* -------------------stuf foto------------------ */
 
